@@ -1,0 +1,29 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.card-back {
+  background-color: #ccc;
+}
+
+.card-content {
+  font-size: 24px;
+}

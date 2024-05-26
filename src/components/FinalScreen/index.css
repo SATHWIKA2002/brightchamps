@@ -1,0 +1,27 @@
+.final-container{
+    background-image: url('../../Images/BackgroundImg.png');
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-final-container{
+    background-color: #FFF5D1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.score{
+    color: #FFC977;
+}
+.NextButton{
+    background-color: aqua;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+}

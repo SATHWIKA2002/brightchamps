@@ -1,0 +1,13 @@
+.activity-container{
+    background-image: url('../../Images/BackgroundImg.png');
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    
+}
